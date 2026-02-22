@@ -1,0 +1,83 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #ffe2ef, #ffd2e7, #fff1f6);
+    -fx-font-family: "Trebuchet MS";
+    -fx-font-size: 14px;
+}
+
+.card {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 22;
+    -fx-padding: 28;
+    -fx-effect: dropshadow(gaussian, rgba(214, 88, 146, 0.25), 24, 0.2, 0, 10);
+    -fx-border-color: rgba(255, 182, 213, 0.6);
+    -fx-border-radius: 22;
+    -fx-border-width: 1.5;
+}
+
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #9e2f63;
+}
+
+.subtitle {
+    -fx-text-fill: #b34a79;
+}
+
+.status {
+    -fx-background-color: #fff0f6;
+    -fx-background-radius: 10;
+    -fx-padding: 6 12;
+    -fx-text-fill: #7b2b52;
+}
+
+.track {
+    -fx-text-fill: #8a3760;
+    -fx-font-style: italic;
+}
+
+.time {
+    -fx-text-fill: #8a3760;
+    -fx-font-weight: bold;
+}
+
+.field-label {
+    -fx-text-fill: #8a3760;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #ffd1e6;
+    -fx-text-fill: #6a274a;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-padding: 8 16;
+}
+
+.button:hover {
+    -fx-background-color: #ffc0dc;
+}
+
+.primary {
+    -fx-background-color: #ff8fbe;
+    -fx-text-fill: #4a0026;
+}
+
+.primary:hover {
+    -fx-background-color: #ff78b2;
+}
+
+.slider .track {
+    -fx-background-color: #f7c5da;
+    -fx-background-radius: 8;
+}
+
+.slider .thumb {
+    -fx-background-color: #ff8fbe;
+    -fx-background-radius: 10;
+}
+
+.hint {
+    -fx-text-fill: #a05a7a;
+    -fx-font-style: italic;
+}
